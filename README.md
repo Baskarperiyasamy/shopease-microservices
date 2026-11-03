@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ShopEase Product Service
 
 An independent Product Management microservice for the ShopEase e-commerce platform. It exposes REST APIs to create, retrieve, update and delete products, validates every request with Pydantic, and runs inside a Docker container.
@@ -237,3 +238,6 @@ After testing, run `docker logs shopease-product-container` and confirm there ar
 | `COPY . .` | Copies the application source code |
 | `EXPOSE 8003` | Documents the port the app listens on |
 | `CMD [...]` | Starts Uvicorn on `0.0.0.0:8003` so it is reachable from outside the container |
+=======
+# shopease-microservices
+>>>>>>> 2b81eb5178c8cd106d080f0b8655022c50684320
